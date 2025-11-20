@@ -2,10 +2,8 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
-const REPO_NAME = "Sneakerproductpage";
-
 export default defineConfig({
-  base: `/${REPO_NAME}/`,
+  base: "/Sneakerproductpage/",
 
   plugins: [react()],
   resolve: {
