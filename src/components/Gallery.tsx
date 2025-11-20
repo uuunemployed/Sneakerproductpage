@@ -1,9 +1,9 @@
-import { motion } from 'motion/react';
-import { useState } from 'react';
-import { X } from 'lucide-react';
-import image1 from 'figma:asset/ef01bb963166d2a49f9bc747803f76d754fbed6d.png';
-import image2 from 'figma:asset/e32e5cb0e925163aada47c4480a2aeee718b39a9.png';
-import image3 from 'figma:asset/9b3c33e4ae3381779aed8473439bb38d366e2094.png';
+import { motion } from "motion/react";
+import { useState } from "react";
+import { X } from "lucide-react";
+import image1 from "../assets/5258399409517564009.jpg";
+import image2 from "../assets/5258399409517564008.jpg";
+import image3 from "../assets/5258399409517564007.jpg";
 
 export function Gallery() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -11,18 +11,18 @@ export function Gallery() {
   const images = [
     {
       src: image1,
-      alt: 'Кароліна Русин - портрет 1',
-      description: 'Професійне фото',
+      alt: "Кароліна Русин - портрет 1",
+      description: "Професійне фото",
     },
     {
       src: image2,
-      alt: 'Кароліна Русин - портрет 2',
-      description: 'Повсякденне фото',
+      alt: "Кароліна Русин - портрет 2",
+      description: "Повсякденне фото",
     },
     {
       src: image3,
-      alt: 'Кароліна Русин - портрет 3',
-      description: 'Портретна зйомка',
+      alt: "Кароліна Русин - портрет 3",
+      description: "Портретна зйомка",
     },
   ];
 

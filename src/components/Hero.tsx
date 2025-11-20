@@ -1,6 +1,6 @@
 import { ChevronDown } from 'lucide-react';
 import { motion } from 'motion/react';
-import profileImage from 'figma:asset/ef01bb963166d2a49f9bc747803f76d754fbed6d.png';
+import profileImage from '../assets/5258399409517564007.jpg';
 
 export function Hero() {
   const scrollToAbout = () => {
